@@ -1,1 +1,2 @@
 # Hello World
+I had to troubleshoot ```error: package `solana-program v1.18.0` cannot be built``` using the command ```cargo update -p solana-program@1.18.1 --precise 1.16.25``` whilst my solana version was ```1.17.19``` which deviates from the tutorial.
